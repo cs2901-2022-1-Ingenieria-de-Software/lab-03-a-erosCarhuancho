@@ -29,7 +29,6 @@ public class ManageDemand {
         for (Order order : orders) {
             quantities +=order.getQuantity();
 
-
             //taxes += this.tax.calculateTax(order.getCountry());
 
             String currCountry = order.getCountry();
@@ -40,7 +39,7 @@ public class ManageDemand {
             } else {
                 taxes += defaultAdditionalColombia;
             }
-             
+
         }
         return quantities * taxes;
     }
