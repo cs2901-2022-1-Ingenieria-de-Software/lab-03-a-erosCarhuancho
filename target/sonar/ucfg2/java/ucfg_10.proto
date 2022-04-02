@@ -1,0 +1,57 @@
+
+0lab.demand.Tax#calculateTax(Ljava/lang/String;)D_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java ("6*ô
+2_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.javaL (Oˆ
+…
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.javaL (O
+%1double"__id*
+
+%6double*
+1*ô
+3_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.javaE (Iˆ
+…
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.javaE (I
+%1double"__id*
+
+%5double*
+1*Ó
+4_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java. (5äá
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java. (B
+%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+countryjava.lang.String*
+PE2equals(Ljava/lang/Object;)*
+2
+3*ô
+5_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java' (+ˆ
+…
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java' (+
+%1double"__id*
+
+%2double*
+1*Ó
+6_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java (äá
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java ($
+%0boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+countryjava.lang.String*
+BR2equals(Ljava/lang/Object;)*
+4
+5*Ï
+1_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java (P"i
+_
+UC:/Users/ecarh/JavaProjects/lab-03-a-erosCarhuancho/src/main/java/lab/demand/Tax.java (P
+"":
+countryjava.lang.StringB
+lab.demand.Tax

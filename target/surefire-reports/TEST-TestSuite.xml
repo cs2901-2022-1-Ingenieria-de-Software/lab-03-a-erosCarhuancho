@@ -1,72 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="TestSuite" time="0.005" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.286" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17+0"/>
-    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/user/repos/utec/LAB03-A"/>
-    <property name="java.vm.vendor" value="Homebrew"/>
-    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="419"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/user/repos/utec/LAB03-A"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17+0"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/d0/jdjlcyc534z8wks36y2zt7d80000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.2/libexec/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.2/libexec/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="11.5.1"/>
-    <property name="user.home" value="/Users/user"/>
-    <property name="user.timezone" value="America/Lima"/>
-    <property name="file.encoding" value="US-ASCII"/>
-    <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="user"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.2/libexec/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho\target\test-classes;C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho\target\classes;C:\Users\ecarh\.m2\repository\org\testng\testng\7.0.0-beta1\testng-7.0.0-beta1.jar;C:\Users\ecarh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ecarh\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\ecarh\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher compile verify"/>
-    <property name="java.home" value="/usr/local/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18\bin"/>
+    <property name="sun.java.command" value="C:\Users\ecarh\AppData\Local\Temp\surefire13890225087918687013\surefirebooter16701547123037645224.jar C:\Users\ecarh\AppData\Local\Temp\surefire13890225087918687013 2022-04-01T20-51-29_203-jvmRun1 surefire8866598310541089216tmp surefire_015645526756652425179tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho\target\test-classes;C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho\target\classes;C:\Users\ecarh\.m2\repository\org\testng\testng\7.0.0-beta1\testng-7.0.0-beta1.jar;C:\Users\ecarh\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ecarh\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\ecarh\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ecarh"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ecarh\AppData\Local\Temp\surefire13890225087918687013\surefirebooter16701547123037645224.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18+36-2087"/>
+    <property name="user.name" value="ecarh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ecarh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ecarh\AppData\Local\Temp\"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="C:\Users\ecarh\JavaProjects\lab-03-a-erosCarhuancho"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="sonar.projectKey" value="cs2901-2022-1-Ingenieria-de-Software_lab-03-a-erosCarhuancho"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\ecarh\anaconda3;C:\Users\ecarh\anaconda3\Library\mingw-w64\bin;C:\Users\ecarh\anaconda3\Library\usr\bin;C:\Users\ecarh\anaconda3\Library\bin;C:\Users\ecarh\anaconda3\Scripts;C:\Users\ecarh\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ecarh\AppData\Local\Programs\Python\Python310\;C:\Users\ecarh\AppData\Local\Microsoft\WindowsApps;C:\Users\ecarh\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;;C:\Program Files\apache-maven-3.8.5\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17"/>
-    <property name="native.encoding" value="US-ASCII"/>
-    <property name="java.vendor" value="Homebrew"/>
-    <property name="sun.stderr.encoding" value="US-ASCII"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.2/libexec"/>
-    <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2021-09-14"/>
-    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Homebrew"/>
-    <property name="sun.stdout.encoding" value="US-ASCII"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18+36-2087"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase classname="lab.ManageDemandTest" name="test_AllOrdersFromColombia" time="0.005">
-    <failure message="did not expect to find [7.0] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: did not expect to find [7.0] but found [0.0]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.failNotEquals(Assert.java:969)
-	at org.testng.Assert.assertEquals(Assert.java:640)
-	at org.testng.Assert.assertEquals(Assert.java:651)
-	at lab.ManageDemandTest.test_AllOrdersFromColombia(ManageDemandTest.java:36)
-</failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6bc168e5
-</system-out>
-  </testcase>
-  <testcase classname="lab.ManageDemandTest" name="test_AllOrdersFromPeru" time="0"/>
+  <testcase name="test_AllOrdersFromPeru" classname="lab.ManageDemandTest" time="0.023"/>
 </testsuite>
